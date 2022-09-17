@@ -1,0 +1,36 @@
+* {
+    margin:0; 
+    padding:0;
+    box-sizing: border-box; 
+}
+html, body {
+    height: 100%;
+    font-size: 30px;
+}
+
+header, footer {
+    background-color: green;
+    padding: 10px 0 30px 20px;
+    height: 10%;
+}
+
+main {
+    height: 80%;
+}
+
+.navigation, .right-block, .main-content{
+    display: inline-block;
+}
+
+.navigation, .right-block {
+    background-color: rgb(224, 224, 164);
+    width: 20%;
+    height: 100%;
+    padding: 10px 0 30px 20px;
+}
+
+.main-content{
+    width:60%;
+    height:100%;
+    padding: 10px 0 30px 20px;
+}
