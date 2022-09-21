@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#van {
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+h1, .quote{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.twitch, .twitter, .instagram{
+    border: 1px solid rgba(20, 72, 243, 0.945);
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    width: auto;
+    padding: 5px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    background-color: silver;
+    margin-top: 30px;
+}
+
+.about, .skills{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px 5px 10px 5px;
+}
+
+.merch, .discord, .youtube{
+    width: auto;
+    background-color: silver;
+    font-size: 14px;
+    border: 1px solid;
+    margin: 2px;
+    padding: 3px;
+}
